@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chatHome.css">
+</head>
+<body>
+    <div class="MyChat">Chat Home</div>
+    <div class='container'>
+        <div id="message">
+          
+        </div>
+        <form>
+            <label for="inputMessage"> </label>
+                <input class="inputMessage" id="inputMessage" type="text" placeholder="Enter your message...">
+            <label for="send-button"></label>
+            <input class="send-button"type="button" id="send-button"value="Send">
+        </form>
+
+    </div>
+    <button onclick="logout()">LOG OUT</button>
+    <div class='connect-person'>
+        <h3 id="userName"></h3>
+    </div>
+    <script src="chatHome.js"></script>
+</body>
+</html>

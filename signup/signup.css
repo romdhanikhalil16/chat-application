@@ -1,0 +1,57 @@
+body{
+    font-family: Arial;
+    background-image: url('p1/signup.jpg');
+
+}
+.wrap{
+    max-width: 350px;
+    border-radius: 20px;
+    margin: 273px;
+    box-sizing: border-box;
+    color: #fff;
+    margin-top: 34px;
+    float: left;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: slategray;
+}
+
+
+input[type=text],input[type=password],input[type=email],input[type=date]{
+    width: 200%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background-color: rgba(0, 0, 0, 0.151);
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    border-radius: 10px;
+    margin: 5px;
+ }
+
+
+.button{
+    width: 21%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin: 455px -399px;
+    outline: none;
+    border: none;
+    background: #6082de;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.button:hover{
+    opacity:1;
+}
+.MyChat{
+    color: aqua;
+    font-size: 47px;
+    margin: 22px 10px;
+}

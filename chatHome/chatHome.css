@@ -1,0 +1,85 @@
+body{
+    font-family: Arial;
+    background-image: url('../signup/p1/signup.jpg');
+
+}
+.MyChat{
+    color: aqua;
+    font-size: 47px;
+    margin: 22px 10px;
+}
+.container{
+    position: absolute;
+    width: 656px;
+    height: 610px;
+    border: 3px solid black;
+    background-color: blanchedalmond;
+    left: 369px;
+}
+.connect-person{
+    border: 3px solid black;
+    background-color: brown;
+    position: absolute;
+    width: 587px;
+    height: 46px;
+    left: 369px;
+    top: 49px;
+    padding-left:70px;
+}
+.inputMessage{
+    position: absolute;
+    width: 535px;
+    top: 564px;
+    border-radius: 11px;
+    height: 31px;
+    left: 24px;
+    padding-left: 20px;
+
+}
+.send-button{
+    position: absolute;
+    top: 564px;
+    left: 577px;
+    width: 78px;
+    /* border-radius: 21px; */
+    height: 38px;
+    background-color: royalblue;
+}
+.userMessage {
+ color: white;
+}
+.noUserMessage {
+     color: black;
+}
+.noUser {
+  border: 1px solid green;
+  background-color: gray;
+  width: fit-content;
+  margin: 10px;
+}
+.user {
+    border: 1px solid green;
+    background-color: blue;
+    width: fit-content;
+    margin-left: 579px;
+    margin-bottom: 7px;
+}
+.chip {
+  display: inline-block;
+  padding: 0 25px 0 10px;
+  height: auto;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.chip p {
+  font-size: 16px;
+  line-height: auto;
+}
